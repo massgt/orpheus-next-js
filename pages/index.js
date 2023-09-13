@@ -33,6 +33,54 @@ export default function Page() {
 					</div>
 					<img src="./full-hero.svg" className="w-[635px] " />
 				</div>
+
+				<div className="flex justify-end items-center ">
+					<img src="./txt-recent.svg" className="h-[50px] w-[193px]" />
+					<img src="./line.svg" className="mx-[22px]" />
+					<a className="font-Montserrat text-[16px] font-light opacity-80 cursor-pointer">
+						VIEW MORE
+					</a>
+				</div>
+				<div class="flex overflow-x-scroll mt-[30px]">
+					<img src="./frame1.svg" className="h-[237px] mr-[50px]" />
+					<img src="./frame2.svg" className="h-[237px] mr-[50px]" />
+					<img src="./frame3.svg" className="h-[237px] mr-[50px]" />
+					<img src="./frame4.svg" className="h-[237px] mr-[50px]" />
+					<img src="./frame5.svg" className="h-[237px] mr-[50px]" />
+					<img src="./view-all.svg" />
+				</div>
+
+				<div className="flex items-center mt-[80px]">
+					<img src="./txt-contribution.svg" className="h-[50px] w-[193px]" />
+					<img src="./line.svg" className="mx-[22px]" />
+					<a className="font-Montserrat text-[16px] font-light opacity-80 cursor-pointer">
+						VIEW MORE
+					</a>
+				</div>
+				<div>
+					<img
+						src="./banner-contribution.svg"
+						className="h-[434px] -mt-[30px]"
+					/>
+					<img
+						src="./banner-contribution2.svg"
+						className="h-[434px] -mt-[50px]"
+					/>
+				</div>
+
+				<div className="flex justify-center w-auto mt-[150px]">
+					<img src="./lets-connect.svg" />
+				</div>
+				<p className="text-center my-[30px] font-Montserrat text-[18px]">
+					Get in touch for opportunities or just to say hi! 👋
+				</p>
+				<div className="flex justify-center gap-[43px] pb-[100px] ">
+					<img src="./linkedin.svg" />
+					<img src="./web.svg" />
+					<img src="./instagram.svg" />
+					<img src="./medium.svg" />
+					<img src="./email.svg" />
+				</div>
 			</div>
 		</>
 	);
